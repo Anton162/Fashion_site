@@ -33,10 +33,11 @@
   margin: 0 auto;
 }
 
-.head {
+.navigation {
   display: flex;
   justify-content: space-between;
   background-color: #222222;
+  
 }
 
 .logo_left {
@@ -103,7 +104,6 @@
 .card_sale {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
   text-align: center;
   position: relative;
@@ -242,13 +242,56 @@
 }
 
 /* start dextop version */
-
+@media (max-width:1300px) {
+  
+}
+@media (max-width:912px) {
+  
+}
 @media (max-width: 768px){
+
 .logo_left {
   padding: 18px 0 18px 32px;
 }
 .logo_right {
-  margin-left: 424;
-  
+  margin-left: 424px;
+  padding: 30px 32px 20px 0px;
+}
+
+.main_text {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 138px;
+}
+
+.container {
+  max-width: 768px;
+}
+
+.sale {
+  max-width: 734px ;
+  gap: 19.9px;
+  padding: 65px 16px 0 16px;
+}
+
+.card_sale_big {
+  width: 734.581px;
+  padding: 0 16.5px 0 16.5px;
+  margin-left: 16.5px;
+}
+
+.card_clothes {
+  margin-top: 110px;
+  margin-bottom: 72px;
+}
+
+.product_box {
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.btn_bottom {
+  margin-top: 32.5px;
 }
 }
